@@ -1,0 +1,183 @@
+    /* Logo  */
+    
+    body {
+        background-color: #FFFDF3;
+        font-family: 'Montserrat';
+    }
+    /* Navbar */
+    
+    .navbar .container-fluid {
+        margin: 5px 70px;
+        color: white;
+    }
+    
+    .navbar .container-fluid img {
+        width: 80px;
+        height: auto;
+    }
+    
+    .navbar .container-fluid .collapse .navbar-nav {
+        margin-left: 100px;
+    }
+    /* contents */
+    /* Illustration */
+    
+    .login {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 70px;
+    }
+    
+    .login .login-card .card {
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .login .ilustrasi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .login .ilustrasi .float-start {
+        width: 450px;
+        height: auto;
+    }
+    
+    .login .ilustrasi .h4 {
+        font-size: 28px;
+    }
+    
+    .login .ilustrasi .h4 span {
+        color: #129F3E;
+    }
+    
+    .login .ilustrasi .lead {
+        font-size: 20px;
+        color: #37474F;
+        font-weight: 500;
+    }
+    /* Login-Cards */
+    
+    .login .login-card .card {
+        width: 400px;
+        height: auto;
+    }
+    
+    .login .login-card .card .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .login .login-card .card .card-body .card-title {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .login .login-card .card .card-body .card-text {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .login .login-card .card .card-body .card-text a {
+        text-decoration: none !important;
+        font-weight: 900;
+        color: #129F3E;
+    }
+    
+    .login .login-card .card .card-body .button .btn {
+        background-color: #129F3E;
+        color: #FFFDF3;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 153px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    /* tablet view */
+    
+    @media (min-width: 769px) and (max-width: 991px) {
+        body {
+            background-color: #FFFDF3;
+            font-family: 'Montserrat';
+        }
+        /* contents */
+        .login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px 70px;
+        }
+        .login .ilustrasi .float-start {
+            width: 350px;
+            height: auto;
+        }
+        .login .ilustrasi .h4 {
+            font-size: 24px;
+        }
+        .login .ilustrasi .h4 span {
+            color: #129F3E;
+        }
+        .login .ilustrasi .lead {
+            font-size: 20px;
+            color: #37474F;
+            font-weight: 500;
+        }
+        /* login card */
+        .login .login-card .card {
+            width: 500px;
+            height: 350px;
+        }
+        .login .login-card .card .card-body {
+            width: 450px;
+        }
+        .login .login-card .card .card-body .button .btn {
+            padding: 5px 185px;
+        }
+    }
+    /* Responsive phone view */
+    
+    @media (min-width: 576px) and (max-width:768px) {
+        body {
+            background-color: #FFFDF3;
+            font-family: 'Montserrat';
+        }
+        .mx-auto {
+            width: 145px;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        /* contents */
+        .login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px 70px;
+        }
+        .login .ilustrasi .float-start {
+            display: none;
+        }
+        .login .ilustrasi .h4 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .login .ilustrasi .h4 span {
+            color: #129F3E;
+        }
+        .login .ilustrasi .lead {
+            font-size: 20px;
+            color: #37474F;
+            font-weight: 500;
+            text-align: center;
+        }
+        /* login card */
+        .login .login-cards {
+            width: 514px;
+            height: auto;
+        }
+    }
