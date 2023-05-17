@@ -1,0 +1,837 @@
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body{
+    font-family: 'Montserrat';
+    background-color: #FFFDF3;
+}
+.navbar{
+    margin-top: -2px;
+    position: fixed;
+    width: 100vw;
+    z-index: 9;
+}
+.navbar img{
+    width: 80px;
+    height: auto;   
+    margin-right: 5em;
+}
+.navbar .container-fluid {
+    margin: 5px 70px;
+    color: white;
+}
+
+.spacing{
+    height: 80px;
+}
+.jumbotron {
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('assets/header.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.jumbotron h1{
+    font-size: 48px;
+    text-shadow: 2px 0 white;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+.jumbotron p{
+    font-size: 32px;
+}
+.jumbotron button {
+    padding: 15px 40px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #19BA3C;
+    color: white;
+    border-radius: 20px;
+}
+.jumbotron .title{
+    margin: 0 auto;
+    width: 54vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* About */
+.about{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+    /* margin-top: 9em; */
+}
+.about img{
+    width: 414px;
+    height: 446px;
+}
+.about .desc p:first-child{
+    color: #129F3E;
+    font-weight: 800;
+    font-size: 23px;
+}
+.about .desc h1{
+    color:black;    
+    text-shadow: 2px 0 black;
+    letter-spacing:2px;
+    font-weight:bold;
+    line-height: 1.5;
+
+}
+.about .desc h1 span{
+    text-shadow: 2px 0 #129F3E;
+    color: #129F3E;
+}
+
+.about .desc .lastChild{
+    color: #828282;
+    font-size: 24px;
+}
+.about button {
+    padding: 10px 30px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #19BA3C;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Feature */
+.feat{
+    padding: 70px 30px 70px 80px;
+    background-color: #129F3E;
+}
+.feat .card{
+    border-radius: 20px;
+    padding: 10px 0px 40px 0px;
+    height: 25em;
+}
+.feat .img-container {
+    position: relative;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #F1FCD9;
+      overflow: hidden;
+      margin: 0 auto;
+}
+
+.feat .img-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 70%;
+    max-height: 70%;
+}
+.feat .card-title{
+    font-size: 24px;
+    color: #129F3E;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.feat .card-text{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #828282;
+    font-weight: 600;
+}
+
+/* PRODUCT */
+.product{
+    padding: 50px 0px;
+}
+.product .head{
+    text-align: center;
+    margin: 0 auto;
+    width: 43vw;
+}
+.product .head h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 0px black;
+    letter-spacing:2px;
+    line-height: 1.5;
+}
+.product .head h1 span{
+    color: #129F3E;
+    text-shadow: 2px 0 #129F3E;
+    letter-spacing:2px;
+    line-height: 1.5;
+
+}
+.product .head p{
+    font-size: 24px;
+    color: #828282;
+}
+.product .content {
+    margin-top: 50px;
+}
+.content-title{
+   align-items: start;
+}
+.content-title h3{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.product .desc h1{
+    color:  #19BA3C;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 0px #19BA3C;
+    letter-spacing:2px;
+    line-height: 1.5;
+}
+.product .desc p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product .desc ul li{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product .desc button{
+    padding: 10px 45px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #19BA3C;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.list-container {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Others */
+.other{
+    padding: 30px 0px;
+}
+.other .col-lg-4 img{
+    margin-top: 30px;
+    width: 400px;
+}
+.other .col-lg-4 h1{
+    margin: 15px 0px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.other .col-lg-4 h2{
+    color: #129F3E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.other .btn-wrapper{
+    text-align: center;
+}
+.other button{
+    padding: 10px 45px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #19BA3C;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+/* Border */
+.borders{
+    margin-bottom: 10px;
+    background-color: #19BA3C;
+    border-radius: 20px;
+    padding: 20px 20px;
+    padding-left: 30px;
+    color: white;
+}
+.borders .row{
+    display: flex;
+    align-items: center;
+}
+.borders h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.borders img{
+    margin-left: 10px;
+}
+.borders button{
+    background-color: white;
+    color: #129F3E;
+    font-size: 24px;
+    padding: 10px 40px 10px 20px;
+}
+/* Article */
+
+.article{
+    margin-top: 100px;
+    text-align: center;
+    text-align: center;
+
+}
+.article .row{
+    padding: 30px 30px 70px 80px;
+}
+.article .card{
+    border-radius: 20px;
+    padding: 10px 0px 40px 0px;
+    height: 60vh;
+}
+.article img{
+    padding: 0px 10px;
+}
+.article .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.article .card-text{
+    font-size: 16px;
+}
+/* Testimonial */
+
+.carousel{
+    width: 40vw;
+}
+.testi{
+    padding: 50px 0px;
+    background-color: #129F3E;
+    
+}
+.testi .card{
+    padding: 40px 0px;
+}
+.testi h1{
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+.testi .carousel{
+    margin: 0 auto;
+}
+.testi .card-title h5{
+    font-size: 22px;
+    line-height: 2;
+}
+.testi .card-title span{
+    font-size: 20px;
+    color: #828282;
+}
+.testi .quoter{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.testi .quoter img{
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Footer*/
+.footer{
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+.footer img{
+    width: 108px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer .h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: .5px 0px black;
+    letter-spacing:1px;
+    line-height: 1.5;
+}
+.footer .h2 span{
+    color: #129F3E;
+    text-shadow: .5px 0px #129F3E;
+    letter-spacing:1px;
+    line-height: 1.5;
+}
+/* Mobile */
+@media (max-width: 767.98px) {
+    .navbar .collapse{
+        text-align: center;
+    }
+    .jumbotron h1{
+        font-size: 24px;
+        text-shadow: 0px 0 white;
+        letter-spacing: 2px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+    }
+    .jumbotron .title{
+        margin: 0 auto;
+        width: 90vw;
+        height: 100vh;
+    }
+    .jumbotron button{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    /* About */
+    .about{
+        text-align: center;
+        height: 80vh;
+    }
+    .about img{
+        display: none;
+    }
+    .about .desc p:first-child{
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .about .desc h1{
+        color:black;    
+        text-shadow: 0px 0 black;
+        letter-spacing: 0px;
+        font-weight:bold;
+        line-height: 1.5;
+        margin: 20px 0px 30px 0px;
+    }
+    .about .desc h1 span{
+        text-shadow: 0px 0 #129F3E;
+    }
+    .about .desc .lastChild{
+        color: #828282;
+        font-size: 20px;
+    } 
+    .about button {
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+    
+    
+    /* Feature */
+    .feat{
+        padding: 40px 0px;
+    }
+    .feat .card{
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px 20px 40px 20px;
+        height: 22em;
+    }
+    .feat .img-container {
+        width: 100px;
+        height: 100px;
+    }
+    .feat .card-title{
+        font-size: 20px;
+    }
+    .feat .card-text{
+        font-size: 16px;
+    }
+    /* PRODUCT */
+    .product{
+        padding: 50px 0px;
+    }
+    .product .head{
+        text-align: center;
+        margin: 0 auto;
+        width: 95vw;
+    }
+    .product .head h1{
+        font-size: 24px;
+        text-shadow: 0px 0px black;
+    }
+    .product .head h1 span{
+        text-shadow: 0px 0px #129F3E;
+
+    }
+    .product .head p{
+        font-size: 18px;
+    }
+    .product .content {
+        width: 95vw;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .content-title{
+        align-items: center;
+    }
+    .content-title h3{
+        padding-left: 10px;
+        margin-top: 8px;
+        font-weight: bold;
+    }
+    .product .desc h1{
+        margin-top: 20px;
+        font-size: 26px;
+        text-shadow: 0px 0px #19BA3C;
+        letter-spacing:1.5px;
+    }
+    .product .desc p{
+        font-size: 16px;
+    }
+    .product .desc ul li{
+        padding: 4px;
+    }
+    .product .desc button{
+        padding: 10px 35px;
+        font-size: 18px;
+        width: 95vw;
+        margin-top: 10px;
+    }
+    /* Others */
+    .other{
+        width: 95vw;
+        padding: 0px 0px 0px 10px;
+    }
+    .other .col-lg-4{
+        display: flex;
+    }
+    .other .col-lg-4 img{
+        margin-top: 30px;
+        width: 150px;
+    }
+    .other .col-lg-4 h1{
+        margin: 25px 0px 15px 10px;
+        font-size: 20px;
+    }
+    .other .col-lg-4 h2{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .other button{
+        font-size: 18px;
+    }
+    /* Border */
+    .borders{
+        width: 90vw;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .borders h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .borders img{
+        display: none;
+    }
+    .borders button{
+        font-size: 18px;
+        
+        padding: 10px 20px 10px 20px;
+    }
+     /* Article */
+
+    .article{
+        margin-top: 100px;
+    }
+    .article .row{
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .article .card{
+        height: 50vh;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .article img{
+        padding: 0px 10px;
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    .article .card-title{
+        font-size: 16px;
+    }
+    .article .card-text{
+        font-size: 14px;
+    }
+    
+    
+    .testi .card{
+        padding: 30px 0px;
+    }
+    .testi h1{
+        color: white;
+        font-size: 28px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+    }
+    .testi .carousel{
+        margin: 0 auto;
+        width: 100vw;
+    }
+    .testi .card-title h5{
+        font-size: 18px;
+        line-height: 2;
+    }
+    .testi .quoter h5{
+        font: 18px;
+    }
+    .testi .card-title span{
+        font-size: 20px;
+        color: #828282;
+    }
+    .testi .quoter{
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .testi .quoter img{
+        border-radius: 50%;
+        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Footer */
+    .footer{
+        margin-top: 50px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .footer img{
+        width: 90px;
+        margin-bottom: 20px;
+        
+    }
+    .footer p{
+        display: none;
+    }
+    .footer .h2{
+        font-size: 18px;
+    }
+}
+
+/* Tab */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .navbar .collapse{
+        text-align: center;
+    }
+    .jumbotron h1{
+        font-size: 40px;
+    }
+    .jumbotron .title{
+        width: 70vw;
+    }
+    .about{
+        height: 60vh;
+        text-align: center;
+    }
+    .about .desc{
+        padding: 0px 80px;
+    }
+    .about img{
+        display: none;
+    }
+    .about .desc p:first-child{
+        margin-top: -50px;
+        margin-bottom: 60px;
+    }
+     .about .desc h1{
+        color:black;    
+        text-shadow: 0px 0 black;
+        letter-spacing: 0px;
+        font-weight:bold;
+        line-height: 1.5;
+        margin: 20px 0px 40px 0px;
+    }
+    .about .desc h1 span{
+        text-shadow: 0px 0 #129F3E;
+    }
+
+     
+    /* Feature */
+    .feat{
+        padding: 40px 50px;
+    }
+    .feat .card{
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px 20px 40px 20px;
+        height: 22em;
+    }
+    .feat .img-container {
+        width: 100px;
+        height: 100px;
+    }
+    .feat .card-title{
+        font-size: 20px;
+    }
+    .feat .card-text{
+        font-size: 16px;
+    }
+    
+    /* PRODUCT */
+    .product{
+        padding: 50px 0px;
+    }
+    .product .head{
+        width: 70vw;
+    }
+    .product .head h1{
+        font-size: 30px;
+        text-shadow: 0px 0px black;
+    }
+    .product .head h1 span{
+        text-shadow: 0px 0 #129F3E;
+
+    }
+    .product .head p{
+        font-size: 20px;
+        color: #828282;
+    }
+    .product .content {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .product .img-fluid{
+        height: 300px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-title h3{
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    .product .desc {
+        margin: 0 auto;
+    }
+    .product .desc h1{
+        font-size: 30px;
+        text-shadow: 0px 0px #19BA3C;
+        margin-top: 20px;
+    }
+    .product .desc p{
+        font-size: 18px;
+    }
+    .product .desc button{
+        width: 10em;
+        margin-top: 30px;
+    }
+    .list-container {
+       width: 50vw;
+       margin: 0 auto;
+    }
+    .other{
+        width: 95vw;
+        padding: 0px 0px 0px 10px;
+    }
+    .other .col-lg-4{
+        display: flex;
+    }
+    .other .col-lg-4 img{
+        margin-top: 30px;
+        width: 300px;
+    }
+    .other .col-lg-4 h1{
+        margin: 25px 0px 15px 10px;
+        font-size: 26px;
+    }
+    .other .col-lg-4 h2{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .other button{
+        font-size: 20px;
+    }
+    /* Border */
+    .borders{
+        width: 90vw;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .borders h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .borders .img-left{
+        width: 150px;
+    }
+    .borders button{
+        font-size: 18px;
+        
+        padding: 10px 30px 10px 20px;
+    }
+    .borders button img{
+        width: 30px;
+    }
+    .article .card{
+        border-radius: 20px;
+        padding: 10px 0px 10px 0px;
+        height: 40vh;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .testi .card{
+        padding: 30px 0px;
+    }
+    .testi h1{
+        color: white;
+        font-size: 28px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+    }
+    .testi .carousel{
+        margin: 0 auto;
+        width: 70vw;
+    }
+    .testi .card-title h5{
+        font-size: 22px;
+        line-height: 2;
+    }
+    .testi .quoter h5{
+        font: 20px;
+    }
+    .testi .card-title span{
+        font-size: 20px;
+        color: #828282;
+    }
+    /* Footer */
+    
+    /* Footer */
+    .footer{
+        margin-top: 50px;
+        padding-bottom: 60px;
+    }
+    .footer img{
+        width: 90px;
+        margin-bottom: 20px;
+        
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer .h2{
+        font-size: 18px;
+    }
+    
+}

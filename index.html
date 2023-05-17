@@ -5,18 +5,340 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/62c817d797.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <img src="assets/logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success" type="submit"> <a href="login.html"
+                        style="text-decoration: none; color: white;">Login</a> </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Space -->
+    <div class="spacing" style="height: 80px; background-color: red;"></div>
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="title d-flex flex-column">
+            <h1>Growing fresh, sustainable, and healthy with hydroponics</h1>
+            <p class="my-3">we provide hydroponic starter kits and provide the best educational content for clients</p>
+            <button type="button" class="btn btn-lg mt-4">Let's Explore</button>
+        </div>
+    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- About Us -->
+    <div class="container-fluid about">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-sm-0 col-lg-4">
+                <img src="assets/image 1.png" alt="Gambar" class="img-fluid">
+            </div>
+
+            <div class="col-sm-12 col-lg-5 desc">
+                <p>ABOUT US</p>
+                <h1>Providing <span>Fresh Veggie
+                    </span> Straight to
+                    Your Table</h1>
+                <p class="lastChild">Sihijau is a website that provides starter kits and educational resources for
+                    hydroponic
+                    gardening.
+                    Whether you're a beginner or an experienced gardener.</p>
+                <button type="button" class="btn mt-5">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- Feature -->
+    <div class="container-fluid feat">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="img-container">
+                            <img src="assets/cosmetics.png" alt="Image">
+                        </div>
+                        <h5 class="card-title">Hygienic Growth</h5>
+                        <p class="card-text">planting is more hygienic due to less contact with humans</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="img-container">
+                            <img src="assets/fertilizer.png" alt="Image">
+                        </div>
+                        <h5 class="card-title">Zero Pesticide</h5>
+                        <p class="card-text">has balanced nutrition because it has zero pesticide levels</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="img-container">
+                            <img src="assets/hydroponic-gardening.png" alt="Image">
+                        </div>
+                        <h5 class="card-title">Easier Planting</h5>
+                        <p class="card-text">With hydroponic planting, growing plants is easier and more efficient
+                            because it doesn't take up much space</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="img-container">
+                            <img src="assets/broccoli.png" alt="Image">
+                        </div>
+                        <h5 class="card-title">Healthy Vegetable</h5>
+                        <p class="card-text">Hydroponic plants are healthier and more productive due to precise nutrient
+                            delivery and a controlled environment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="container product">
+        <div class="head">
+            <h1>OUR <span>PRODUCTS</span> </h1>
+            <p>We provide various starter kit packages for those of you who want to start planting with hydroponics</p>
+        </div>
+        <div class="content">
+            <div class="content-title d-flex">
+                <img src="assets/Stars.svg" alt="">
+                <h3>Best Seller</h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <img src="assets/image 2.png" alt="Gambar" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-lg-5 desc">
+                    <h1>Hydroponic Wick System</h1>
+                    <p>the product you get when you buy this package</p>
+                    <ul class="list-container">
+                        <li><i class="fa-solid fa-check"></i>1 piece of premium plastic tub</li>
+                        <li><i class="fa-solid fa-check"></i>1 piece of perforated pvc board cover 6</li>
+                        <li><i class="fa-solid fa-check"></i>6 pieces of food grade netpot</li>
+                        <li><i class="fa-solid fa-check"></i>1 piece rockwool</li>
+                        <li><i class="fa-solid fa-check"></i>2 packets of vegetable seeds (free to choose)</li>
+                        <li><i class="fa-solid fa-check"></i>2 packs of hydroponic nutrition</li>
+                    </ul>
+                    <button type="button" class="btn">See More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OTHERS -->
+    <div class="container other mt-5">
+        <div class="row">
+            <div class="content-title d-flex">
+                <img src="assets/Stars.svg" alt="">
+                <h3>Others</h3>
+            </div>
+            <hr>
+            <div class="col-lg-4">
+                <img src="assets/image 4.png" alt="">
+                <div>
+                    <h1>Hydroponic NFT System</h1>
+                    <h2>Rp 320.000</h2>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/image 5.png" alt="">
+                <div>
+                    <h1>Seeds Package</h1>
+                    <h2>Rp 20.000</h2>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/image 6.png" alt="">
+                <div>
+                    <h1>Hydroponic ECO System</h1>
+                    <h2>Rp 272.000</h2>
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <button type="button" class="btn">See More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- learn border -->
+    <div class="container borders">
+        <div class="row">
+            <div class="col-lg-3 col-sm-3">
+                <img src="assets/Virtual reality-cuate.svg" class="img-left" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-5">
+                <h1>let's learn to grow with hydroponics</h1>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+                <button class="btn "><img style="margin-right: 10px;" src="assets/Leanpub.svg" alt="">Let's
+                    Learn</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="container-fluid article">
+        <div class="head">
+            <h1>ARTICLES</h1>
+            <p>articles that you can read to develop hydroponic cultivation</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="assets/Rectangle 6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">How to assemble an Wick hydroponic installation at home</h5>
+                        <p class="card-text">Hydroponic plants are plants grown through media ....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="assets/Rectangle 6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">How to assemble an NFT hydroponic installation at home</h5>
+                        <p class="card-text">Hydroponic plants are plants grown through media ....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="assets/Rectangle 6.png" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">How to assemble an ECO hydroponic installation at home</h5>
+                        <p class="card-text">Hydroponic plants are plants grown through media ....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="assets/Rectangle 6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">How to assemble an Wick hydroponic installation at home</h5>
+                        <p class="card-text">Hydroponic plants are plants grown through media ....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="container-fluid testi text-center">
+        <h1>TESTIMONIAL</h1>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                        <div class="card  " style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>"</span> I love creating new think every single days so
+                                    let’s do it
+                                    together it was wonderful to work with you. <span>"</span> </h5>
+                                <div class="quoter">
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" alt="">
+                                    <h5>- TARO ZIZO</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex   justify-content-around">
+                        <div class="card  " style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>"</span> I love creating new think every single days so
+                                    let’s do it
+                                    together it was wonderful to work with you. <span>"</span> </h5>
+                                <div class="quoter">
+                                    <img src="assets/broccoli.png" alt="">
+                                    <h5>- TARO ZIZO</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                        <div class="card  " style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>"</span> I love creating new think every single days so
+                                    let’s do it
+                                    together it was wonderful to work with you. <span>"</span> </h5>
+                                <div class="quoter">
+                                    <img src="https://source.unsplash.com/collection/190727/1600x900" alt="">
+                                    <h5> - TARO ZIZO</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container">
+        <div class="footer">
+            <img src="assets/logo.png" alt="logo">
+            <p>Si Hijau is a platform for buying hydroponic kits <br> and also an educational platform for learning
+                <br>how to cultivate plants using the hydroponic method</p>
+            <h2 class="h2  fw-bolder">Copyright©<span> Si hijau 2023</span></>
+        </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
