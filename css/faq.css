@@ -1,0 +1,74 @@
+/* Desktop View */
+
+body {
+    background-color: #FFFDF3;
+    font-family: 'Montserrat';
+}
+
+
+/* Navbar */
+
+.navbar .container-fluid {
+    margin: 5px 70px;
+    color: white;
+}
+
+.navbar .container-fluid img {
+    width: 80px;
+    height: auto;
+}
+
+.navbar .container-fluid .collapse .navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar .container-fluid .collapse .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* hero */
+
+.hero img {
+    margin-top: 20px;
+    width: 429px;
+    height: 286px;
+}
+
+.hero text-center {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+/* Card */
+
+.hero .card1 {
+    background-color: white;
+    width: 500px;
+    margin: 10px 70px;
+    border: 2px solid #129F3E;
+    color: white;
+}
+
+.hero .card1 .card-header .btn {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.hero .card2 {
+    background-color: white;
+    width: 500px;
+    margin: 10px 70px;
+    border: 2px solid #129F3E;
+    color: white;
+}
+
+.hero .card2 .card-header .btn {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}

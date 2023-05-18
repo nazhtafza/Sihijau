@@ -198,4 +198,7 @@ body {
         width: 514px;
         height: auto;
     }
+    .signup .signup-card .card .card-body .button .btn {
+        padding: 5px 170px;
+    }
 }

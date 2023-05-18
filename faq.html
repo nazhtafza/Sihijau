@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--css filelink  -->
-    <link rel="stylesheet" href="css/login.css">
-    <title>Login Form</title>
+    <!-- css filelink -->
+    <link rel="stylesheet" href="css/faq.css">
+    <title>FAQ</title>
 </head>
 
 <body>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -28,7 +29,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-    <!-- Navbar -->
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <img src="assets/logo.png" alt="logo">
@@ -38,7 +39,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -47,49 +48,56 @@
                         <a class="nav-link" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link active" href="faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Education</a>
                     </li>
                 </ul>
-                <button class="btn btn-success" type="submit">Login</button>
+                <button class="btn btn-success" type="submit"><a href="login.html">Login</a></button>
             </div>
         </div>
     </nav>
 
-    <!-- contents -->
-    <div class="login">
-        <!-- illustrasi -->
-        <div class="ilustrasi">
-            <img src="assets/Blooming-cuate 1.svg" class="float-start" alt="illustrasi">
-            <p class="h4 fw-bold">Go Green, Go Health with <span>SiHijau</span> </p>
-            <p class="lead">
-                Join and feel the ease of transactions and education.
-            </p>
-        </div>
-        <!-- login card -->
-        <div class="login-card">
-            <div class="card">
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="assets/FAQs-cuate 1.svg" alt="FAQ" class="mx-auto d-block">
+        <h1 class="text-center fw-bolder">How Can We Help You?</h1>
+        <!-- Card -->
+
+        <!-- card 1 -->
+        <div class="card1">
+            <div class="card-header">
+                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                        What do I get when I buy an Wick system hydroponic package?
+                  </button>
+            </div>
+            <div class="collapse" id="collapseExample">
                 <div class="card-body">
-                    <h5 class="card-title">Join Now</h5>
-                    <p class="card-text fw-normal">Don't have an account yet? <a href="signup.html">Sign In</a></p>
-                    <!-- Textfields -->
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your E-mail">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Password">
-                    </div>
-                    <!-- button -->
-                    <div class="button">
-                        <button type="button" class="btn"><a href="">Login</a></button>
-                    </div>
+                    <!-- Konten dropdown -->
+                    <ul class="list-group">
+                        <li class="list-group-item">You will get 2 premium plastic shelves, 1 rockwool, 2 seed packets, 6 netpots. and a manual that makes it easy for you to start growing plants</li>
+                    </ul>
                 </div>
             </div>
         </div>
+        <!-- card 2 -->
+        <div class="card2">
+            <div class="card-header">
+                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                        What if the starter kit I bought is damaged?
+                  </button>
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="card-body">
+                    <!-- Konten dropdown -->
+                    <ul class="list-group">
+                        <li class="list-group-item">we will replace the starter kit with new items</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 
