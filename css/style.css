@@ -36,7 +36,7 @@ body{
 }
 .jumbotron {
     color: white;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('assets/header.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/header.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,8 +349,7 @@ body{
 
 /* Footer*/
 .footer{
-    margin-top: 70px;
-    padding-bottom: 80px;
+    padding: 10px 0px;
 }
 .footer img{
     width: 108px;
@@ -376,6 +375,9 @@ body{
 @media (max-width: 767.98px) {
     .navbar .collapse{
         text-align: center;
+    }
+    .navbar img{ 
+        margin-right: 0em;
     }
     .jumbotron h1{
         font-size: 24px;

@@ -97,6 +97,15 @@
         font-size: 18px;
         font-weight: 500;
     }
+    
+    .login .login-card .card .card-body .button .btn:hover {
+        background-color: #0B7A27;
+    }
+    
+    .login .login-card .card .card-body .button .btn a {
+        text-decoration: none;
+        color: white;
+    }
     /* tablet view */
     
     @media (min-width: 769px) and (max-width: 991px) {

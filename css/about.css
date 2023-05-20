@@ -1,0 +1,89 @@
+/* Desktop View */
+
+body {
+    background-color: #FFFDF3;
+    font-family: 'Montserrat';
+}
+
+
+/* Navbar */
+
+.navbar .container-fluid {
+    margin: 5px 70px;
+    color: white;
+}
+
+.navbar .container-fluid img {
+    width: 80px;
+    height: auto;
+}
+
+.navbar .container-fluid .collapse .navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar .container-fluid .collapse .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Hero */
+
+.hero .h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero .h2 span {
+    color: #129F3E;
+}
+
+.hero p {
+    text-align: justify;
+    margin: 30px 70px;
+    font-size: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.footer img {
+    width: 108px;
+    height: auto;
+    margin: 0px 70px;
+}
+
+.footer p {
+    margin: 0px 70px;
+    font-size: 14px;
+}
+
+.footer h2 {
+    margin: 10px 70px;
+    font-size: 20px;
+}
+
+
+/* Tab responsive */
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .hero p {
+        margin: 10px 40px 145px 40px;
+    }
+}
+
+
+/* mobile responsive */
+
+@media (min-width: 576px) and (max-width:768px) {
+    .hero p {
+        margin: 0px 20px 100px 20px;
+    }
+}
