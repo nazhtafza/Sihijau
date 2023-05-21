@@ -16,15 +16,20 @@ body {
 .navbar .container-fluid img {
     width: 80px;
     height: auto;
-}
-
-.navbar .container-fluid .collapse .navbar-nav {
-    margin-left: 100px;
+    margin-right: 5em;
 }
 
 .navbar .container-fluid .collapse .btn a {
     text-decoration: none;
     color: white;
+}
+
+.navbar .collapse {
+    text-align: center;
+}
+
+.navbar img {
+    margin-right: 0em;
 }
 
 
@@ -45,30 +50,115 @@ body {
 
 /* Card */
 
-.hero .card1 {
+.hero .dropdown {
+    margin: 0 auto;
+}
+
+.hero .dropdown .card {
     background-color: white;
     width: 500px;
     margin: 10px 70px;
     border: 2px solid #129F3E;
+    border-radius: 10px;
     color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.hero .card1 .card-header .btn {
+.hero .dropdown .card .card-header .btn {
     font-size: 20px;
     font-weight: 900;
     text-align: left;
 }
 
-.hero .card2 {
+
+/* Footer */
+
+.footer {
     background-color: white;
-    width: 500px;
-    margin: 10px 70px;
-    border: 2px solid #129F3E;
-    color: white;
+    padding: 30px 0px;
+    margin-top: 200px;
 }
 
-.hero .card2 .card-header .btn {
+.footer img {
+    width: 108px;
+    height: auto;
+    margin: 0px 70px;
+}
+
+.footer p {
+    margin: 0px 70px;
+    font-size: 14px;
+}
+
+.footer h2 {
+    margin: 10px 70px;
     font-size: 20px;
-    font-weight: 900;
-    text-align: left;
+}
+
+
+/* tab responsive */
+
+@media(min-width: 769px) and (max-width: 991px) {
+    .hero img {
+        margin-top: 20px;
+        width: 350px;
+        height: 250px;
+    }
+    .hero text-center {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
+
+@media(max-width:768px) {
+    .hero img {
+        margin-top: 20px;
+        width: 350px;
+        height: 150px;
+    }
+    .hero text-center {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .hero .dropdown {
+        margin: 0 auto;
+    }
+    .hero .dropdown .card {
+        background-color: white;
+        width: 350px;
+        margin: 10px 70px;
+        border: 2px solid #129F3E;
+        border-radius: 10px;
+        color: white;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .hero .dropdown .card .card-header .btn {
+        font-size: 20px;
+        font-weight: 900;
+        text-align: left;
+    }
+    .footer {
+        background-color: white;
+        padding: 20px 0px;
+        margin-top: 100px;
+    }
+    .footer img {
+        width: 90px;
+        height: auto;
+        margin: 0px 70px;
+    }
+    .footer p {
+        margin: 10px 70px;
+        font-size: 14px;
+    }
+    .footer h2 {
+        margin: 10px 70px;
+        font-size: 20px;
+    }
 }

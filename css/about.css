@@ -16,10 +16,7 @@ body {
 .navbar .container-fluid img {
     width: 80px;
     height: auto;
-}
-
-.navbar .container-fluid .collapse .navbar-nav {
-    margin-left: 100px;
+    margin-right: 5em;
 }
 
 .navbar .container-fluid .collapse .btn a {
@@ -74,6 +71,12 @@ body {
 /* Tab responsive */
 
 @media (min-width: 769px) and (max-width: 991px) {
+    .navbar .collapse {
+        text-align: center;
+    }
+    .navbar img {
+        margin-right: 0em;
+    }
     .hero p {
         margin: 10px 40px 145px 40px;
     }
@@ -83,6 +86,12 @@ body {
 /* mobile responsive */
 
 @media (min-width: 576px) and (max-width:768px) {
+    .navbar .collapse {
+        text-align: center;
+    }
+    .navbar img {
+        margin-right: 0em;
+    }
     .hero p {
         margin: 0px 20px 100px 20px;
     }

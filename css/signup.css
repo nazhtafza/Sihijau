@@ -18,8 +18,12 @@ body {
     height: auto;
 }
 
-.navbar .container-fluid .collapse .navbar-nav {
-    margin-left: 100px;
+.navbar .collapse {
+    text-align: center;
+}
+
+.navbar img {
+    margin-right: 0em;
 }
 
 
@@ -95,7 +99,7 @@ body {
     color: #129F3E;
 }
 
-.signup .signup-card .card .card-body .button .btn {
+.signup .signup-card .card .card-body .btn {
     background-color: #129F3E;
     color: #FFFDF3;
     border: none;
@@ -150,7 +154,7 @@ body {
     .signup .signup-card .card .card-body {
         width: 500px;
     }
-    .signup .signup-card .card .card-body .button .btn {
+    .signup .signup-card .card .card-body .btn {
         padding: 5px 202px;
     }
 }
@@ -158,7 +162,7 @@ body {
 
 /* Mobile phone view */
 
-@media (min-width: 576px) and (max-width:768px) {
+@media (max-width:768px) {
     body {
         background-color: #FFFDF3;
         font-family: 'Montserrat';
@@ -183,12 +187,13 @@ body {
     .signup .ilustrasi .h4 {
         font-size: 24px;
         margin-top: 20px;
+        text-align: center;
     }
     .signup .ilustrasi .h4 span {
         color: #129F3E;
     }
     .signup .ilustrasi .lead {
-        font-size: 20px;
+        font-size: 16px;
         color: #37474F;
         font-weight: 500;
         text-align: center;
@@ -198,7 +203,11 @@ body {
         width: 514px;
         height: auto;
     }
-    .signup .signup-card .card .card-body .button .btn {
-        padding: 5px 170px;
+    .signup .signup-card .card .card-body .btn {
+        width: 90vw;
+        padding: 5px 20px;
+    }
+    .signup .signup-card .card .card-body .btn a {
+        font-size: 20px;
     }
 }
