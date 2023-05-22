@@ -173,4 +173,79 @@ body {
     }
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    /* Container */
+    .education {
+        text-align: center;
+        padding: 30px 20px;
+        background-color: #129F3E;
+        color: white;
+    }
+    .education .header h2 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .education .header p {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    /* thumbnail */
+    .thumbnail {
+        margin: 40px 20px;
+    }
+    .thumbnail h2 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .thumbnail h2 span {
+        color: #129F3E;
+    }
+    /* Articles */
+    .thumbnail .article {
+        margin-top: 40px;
+        font-size: 32px;
+    }
+    .thumbnail .row {
+        padding: 20px 20px;
+    }
+    .thumbnail .row a {
+        text-decoration: none;
+        color: black;
+    }
+    .thumbnail a .card {
+        border-radius: 20px;
+        padding: 10px 0px 40px 0px;
+        height: 60vh;
+        margin-bottom: 20px;
+    }
+    .thumbnail img {
+        padding: 10px 10px;
+    }
+    .thumbnail a .card-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .thumbnail a .card-text {
+        font-size: 16px;
+    }
+    /* Footer */
+    .footer {
+        background-color: white;
+        padding: 30px 0px;
+        margin-top: 90px;
+    }
+    .footer img {
+        width: 108px;
+        height: auto;
+        margin: 0px 70px;
+    }
+    .footer p {
+        margin: 0px 70px;
+        font-size: 14px;
+    }
+    .footer h2 {
+        margin: 10px 70px;
+        font-size: 20px;
+    }
+}

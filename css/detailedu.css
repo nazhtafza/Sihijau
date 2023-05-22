@@ -67,6 +67,7 @@ body {
 .content .list-article {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .content .list-article h3 {
@@ -78,3 +79,320 @@ body {
 
 
 /* card */
+
+
+/* .content .list-article .card {
+    margin-top: 20px;
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* kartu 1*/
+
+.content .list-article .kartu1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content .list-article .kartu1 img {
+    width: 80px;
+    height: 80px;
+}
+
+.content .list-article .kartu1 .desc {
+    margin-left: 10px;
+}
+
+.content .list-article .kartu1 .desc h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.content .list-article .kartu1 .desc p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+
+/* Kartu 2 */
+
+.content .list-article .kartu2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.content .list-article .kartu2 img {
+    width: 80px;
+    height: 80px;
+}
+
+.content .list-article .kartu2 .desc {
+    margin-left: 10px;
+}
+
+.content .list-article .kartu2 .desc h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.content .list-article .kartu2 .desc p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+
+/* kartu 3 */
+
+.content .list-article .kartu3 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.content .list-article .kartu3 img {
+    width: 80px;
+    height: 80px;
+}
+
+.content .list-article .kartu3 .desc {
+    margin-left: 10px;
+}
+
+.content .list-article .kartu3 .desc h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.content .list-article .kartu3 .desc p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+
+/* kartu 4*/
+
+.content .list-article .kartu4 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.content .list-article .kartu4 img {
+    width: 80px;
+    height: 80px;
+}
+
+.content .list-article .kartu4 .desc {
+    margin-left: 10px;
+}
+
+.content .list-article .kartu4 .desc h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.content .list-article .kartu4 .desc p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* Video */
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 70px;
+    }
+    .content .video {
+        width: 40rem;
+    }
+    .content .video h2 {
+        font-size: 24px;
+    }
+    .content .video p {
+        font-size: 16px;
+    }
+    .content .video iframe {
+        width: 660px;
+        height: 400px;
+    }
+    /* Articles */
+    .content .list-article {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .content .list-article h3 {
+        font-size: 24px;
+        font-weight: 900;
+        text-align: left;
+        color: #129F3E;
+    }
+    /* card */
+    /* kartu 1*/
+    .content .list-article .kartu1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .content .list-article .kartu1 img {
+        width: 80px;
+        height: 80px;
+    }
+    .content .list-article .kartu1 .desc {
+        margin-left: 10px;
+    }
+    .content .list-article .kartu1 .desc h5 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .content .list-article .kartu1 .desc p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6E6E6E;
+    }
+    /* Kartu 2 */
+    .content .list-article .kartu2 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+    }
+    .content .list-article .kartu2 img {
+        width: 80px;
+        height: 80px;
+    }
+    .content .list-article .kartu2 .desc {
+        margin-left: 10px;
+    }
+    .content .list-article .kartu2 .desc h5 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .content .list-article .kartu2 .desc p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6E6E6E;
+    }
+    /* kartu 3 */
+    .content .list-article .kartu3 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+    }
+    .content .list-article .kartu3 img {
+        width: 80px;
+        height: 80px;
+    }
+    .content .list-article .kartu3 a .desc {
+        margin-left: 10px;
+    }
+    .content .list-article .kartu3 a .desc h5 {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 800;
+        color: black;
+    }
+    .content .list-article .kartu3 a .desc p {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: #6E6E6E;
+    }
+    /* kartu 4*/
+    .content .list-article .kartu4 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+    }
+    .content .list-article .kartu4 img {
+        width: 80px;
+        height: 80px;
+    }
+    .content .list-article .kartu4 .desc {
+        margin-left: 10px;
+    }
+    .content .list-article .kartu4 .desc h5 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .content .list-article .kartu4 .desc p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6E6E6E;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Video */
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+    .content .video {
+        width: 20rem;
+    }
+    .content .video h2 {
+        font-size: 24px;
+    }
+    .content .video p {
+        font-size: 16px;
+    }
+    .content .video iframe {
+        width: 350px;
+        height: 200px;
+    }
+    /* List of Article */
+    .content .list-article {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .content .list-article h3 {
+        font-size: 24px;
+        font-weight: 900;
+        text-align: left;
+        color: #129F3E;
+    }
+}

@@ -1,0 +1,238 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body{
+    font-family: 'Montserrat';
+    background-color: #FFFDF3;
+}
+.navbar{
+    margin-top: -2px;
+    position: fixed;
+    width: 100vw;
+    z-index: 9;
+}
+.navbar img{
+    width: 80px;
+    height: auto;   
+    margin-right: 5em;
+}
+.navbar .container-fluid {
+    margin: 5px 70px;
+    color: white;
+}
+
+/* Form */
+.form{
+    padding: 30px 0px;
+}
+input[type="text"]::placeholder {
+    color: #19BA3C;
+}
+input[type="text"] {
+    border: 1px solid #19BA3C;
+} 
+.textarea::placeholder {
+    color: #19BA3C;  
+}
+.textarea{
+    border: 1px solid #19BA3C;
+}
+textarea{
+    height: 15vh;
+}
+
+.form label{
+    padding: 15px 0px 5px 0px;
+}
+.form .head-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.purchased-title{
+    margin-top: 20px;
+}
+.purchased-title img{
+    width: 30px;
+}
+.purchased-title h3{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+hr{
+    margin-top:6px;
+}
+.form .form-check{
+    background-color: white;
+    padding: 20px 10px;
+}
+.form .radio-box {
+    display: flex;
+}
+.form .radio-box img{
+    width: 6rem;
+    height: 4rem;
+}
+.form .radio-box p{
+    font-size: 18px;
+    margin-top: -5px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.form .radio-box .price{
+    color: #19BA3C;
+}
+.form .counter {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 180%;
+}
+.form .counter .delete-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+  .delete-icon i {
+    color: red;
+}
+.form .counter-button {
+    font-size: 20px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 1px solid #D49020;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form .counter-input {
+    width: 40px;
+    text-align: center;
+    border:none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.form .dropdown{
+    background-color: white;
+    padding: 10px 10px 5px 10px;
+}
+.form .dropdown h6{
+   font-size: 18px;
+   font-weight: bolder;
+   margin-top: 10px;
+}
+.form .dropdown .bank{
+    width: 100%;
+}
+.form .dropdown .bank p{
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.form .dropdown .courier {
+    border:2px solid #19BA3C;
+    width: 100%;
+    padding: 0 15px;
+}
+.form .dropdown .courier p{
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form .summary{
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+}
+.form .summary .summary-head h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.form .summary .summary-head p{
+    font-size: 18px;
+}
+.form .dropdown-menu{
+    padding: 10px;
+}
+.form .dropdown-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form .dropdown-menu img{
+    width: 3em;
+    height: 1em;
+    margin: 10px 0px;
+}
+.form .dropdown-menu span{
+    margin-left: 10px;
+}
+@media (max-width: 767.98px) {
+    .form{
+        width: 90vw;
+    }
+    .form .head-title{
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .form .counter {
+        width: 100%;
+    }
+    textarea{
+        height: 10vh;
+    }    
+    .purchased-title{
+        margin-top: 20px;
+    }
+    .purchased-title img{
+        width: 20px;
+    }
+    .purchased-title h3{
+        font-size: 16px;
+    }
+    .form .form-check{
+        background-color: white;
+        padding: 5px 10px;
+    }
+    .form .radio-box {
+        display: flex;
+    }
+    .form .radio-box img{
+        width: 6rem;
+        height: 4rem;
+    }
+    .form .radio-box p{
+        font-size: 15px;
+        margin-top: -5px;   
+    }
+    .form .dropdown{
+        padding: 2px 10px 5px 10px;
+    }
+    .form .dropdown h6{
+       font-size: 16px;
+    }
+    .form .dropdown .bank p{
+        font-size: 14px;
+    }
+    .form .summary{
+        margin-top: 20px;
+    }
+    .form .summary .summary-head h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .form .summary .summary-head p{
+        font-size: 14px;
+    }
+}

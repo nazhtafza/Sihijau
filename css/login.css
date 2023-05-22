@@ -14,10 +14,11 @@
     .navbar .container-fluid img {
         width: 80px;
         height: auto;
+        margin-right: 5rem;
     }
     
-    .navbar .container-fluid .collapse .navbar-nav {
-        margin-left: 100px;
+    .navbar .collapse {
+        text-align: center;
     }
     /* contents */
     /* Illustration */

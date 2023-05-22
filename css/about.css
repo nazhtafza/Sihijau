@@ -24,6 +24,10 @@ body {
     color: white;
 }
 
+.navbar .collapse {
+    text-align: center;
+}
+
 
 /* Hero */
 
@@ -71,12 +75,6 @@ body {
 /* Tab responsive */
 
 @media (min-width: 769px) and (max-width: 991px) {
-    .navbar .collapse {
-        text-align: center;
-    }
-    .navbar img {
-        margin-right: 0em;
-    }
     .hero p {
         margin: 10px 40px 145px 40px;
     }
@@ -85,13 +83,7 @@ body {
 
 /* mobile responsive */
 
-@media (min-width: 576px) and (max-width:768px) {
-    .navbar .collapse {
-        text-align: center;
-    }
-    .navbar img {
-        margin-right: 0em;
-    }
+@media (max-width: 768px) {
     .hero p {
         margin: 0px 20px 100px 20px;
     }

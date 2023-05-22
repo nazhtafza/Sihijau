@@ -1,0 +1,147 @@
+/* Desktop View  */
+
+body {
+    background-color: #FFFDF3;
+    font-family: 'Montserrat';
+}
+
+
+/* Navigation bar */
+
+.navbar .container-fluid {
+    margin: 5px 70px;
+    color: white;
+}
+
+.navbar .container-fluid img {
+    width: 80px;
+    height: auto;
+    margin-right: 5em;
+}
+
+.navbar .container-fluid .collapse .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .collapse {
+    text-align: center;
+}
+
+.navbar img {
+    margin-right: 0em;
+}
+
+
+/* Hero */
+
+.hero .h2 {
+    font-size: 36px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.hero .h2 span {
+    color: #129F3E;
+}
+
+.hero p {
+    text-align: justify;
+    margin: 30px 70px;
+    font-size: 20px;
+}
+
+
+/* text */
+
+.hero a {
+    color: #129F3E;
+    font-size: 24px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.footer img {
+    width: 108px;
+    height: auto;
+    margin: 0px 70px;
+}
+
+.footer p {
+    margin: 0px 70px;
+    font-size: 14px;
+}
+
+.footer h2 {
+    margin: 10px 70px;
+    font-size: 20px;
+}
+
+
+/* tab view */
+
+@media(min-width: 769px) and (max-width:991.98px) {
+    .hero .h2 {
+        font-size: 24px;
+        text-align: left;
+        margin-top: 40px;
+    }
+    .hero p {
+        text-align: justify;
+        margin: 30px 70px;
+        font-size: 16px;
+    }
+    .hero a {
+        color: #129F3E;
+        font-size: 16px;
+    }
+    .footer img {
+        width: 108px;
+        height: auto;
+        margin: 0px 70px;
+    }
+    .footer p {
+        margin: 0px 70px;
+        font-size: 12px;
+    }
+    .footer h2 {
+        margin: 10px 70px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero .h2 {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .hero p {
+        text-align: justify;
+        margin: 30px 20px;
+        font-size: 16px;
+    }
+    .hero a {
+        color: #129F3E;
+        font-size: 16px;
+    }
+    .footer img {
+        width: 80px;
+        height: auto;
+        margin: 0px 30px;
+    }
+    .footer p {
+        margin: 0px 30px;
+        font-size: 12px;
+    }
+    .footer h2 {
+        margin: 10px 70px;
+        font-size: 16px;
+    }
+}
