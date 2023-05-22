@@ -160,6 +160,7 @@ body {
         border-radius: 20px;
         padding: 10px 0px 40px 0px;
         height: 40vh;
+        margin-bottom: 20px;
     }
     .thumbnail img {
         padding: 0px 10px;
@@ -212,6 +213,9 @@ body {
     .thumbnail .row a {
         text-decoration: none;
         color: black;
+    }
+    .thumbnail .card {
+        margin-bottom: 20px;
     }
     .thumbnail a .card {
         border-radius: 20px;
